@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diary JS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="not-defteri">
+        <div class="kapak">
+            <h1>Diary JS</h1>
+        </div>
+        <div class="icerik">
+            <textarea id="notlar" placeholder="Notlarınızı buraya yazın..."></textarea>
+            <button id="kaydet">Kaydet</button>
+            <button id="yukle">Yükle</button>
+            <input type="file" id="dosya-secici" style="display: none;">
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/docx@7.0.0/build/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.5/dist/FileSaver.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
